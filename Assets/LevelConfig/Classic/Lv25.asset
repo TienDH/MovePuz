@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b0d38fa067ce8489b67a842dd1b868, type: 3}
+  m_Name: Lv25
+  m_EditorClassIdentifier: 
+  matrixSize: {x: 4, y: 4}
+  Blocks:
+  - addressableKey: Assets/Prefab/9_t.prefab
+    position: {x: 3, y: 3}
+    rotation: 0
+  - addressableKey: Assets/Prefab/11_t.prefab
+    position: {x: 0, y: 0}
+    rotation: 0
+  - addressableKey: Assets/Prefab/6_t.prefab
+    position: {x: 0, y: 1}
+    rotation: 0
+  - addressableKey: Assets/Prefab/2_t.prefab
+    position: {x: 3, y: 1}
+    rotation: 0
+  - addressableKey: Assets/Prefab/2_d.prefab
+    position: {x: 2, y: 2}
+    rotation: 0
+  - addressableKey: Assets/Prefab/1_d.prefab
+    position: {x: 1, y: 1}
+    rotation: 0
+  - addressableKey: Assets/Prefab/4_d.prefab
+    position: {x: 3, y: 0}
+    rotation: 0
+  - addressableKey: Assets/Prefab/6_d.prefab
+    position: {x: 1, y: 2}
+    rotation: 0
+  - addressableKey: Assets/Prefab/00_d.prefab
+    position: {x: 2, y: 1}
+    rotation: 0
+  - addressableKey: Assets/Prefab/00_d.prefab
+    position: {x: 2, y: 0}
+    rotation: 0
+  - addressableKey: Assets/Prefab/00.prefab
+    position: {x: 0, y: 2}
+    rotation: 0
+  - addressableKey: Assets/Prefab/00_d.prefab
+    position: {x: 1, y: 0}
+    rotation: 0
+  - addressableKey: Assets/Prefab/00_d.prefab
+    position: {x: 3, y: 2}
+    rotation: 0
+  starPosition: {x: 0, y: 0}
