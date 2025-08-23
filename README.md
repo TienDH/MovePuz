@@ -6,6 +6,7 @@
   MovePuz is a fresh take on puzzle games, blending classic block arranging mechanics with dynamic character movement. In each level, players must not only place puzzle pieces strategically, but also guide their character through the environment to reach the goal.
 
 This unique combination of spatial reasoning and movement planning offers a gameplay experience that’s both relaxing and mentally stimulating. Every decision matters — move wrong, and you might block your own path!
+make by TienDoHuu
   <img src="https://lh3.googleusercontent.com/0Ogm18zEIJIAP51JQ4m98ijAIKCv27ewrVWMjyjKHSeQWCXgmMPZg0WMorKU6Ty9mFk" alt="img" width="500" height="1024">
   <img src="https://lh3.googleusercontent.com/d2Spo2qQL_7FEQMsqnQmsC4UBQJWNERgmNHxKiEsxKiq_-f5i_slF9zgfBPfngtMNs2WlytLgZyXTyxo1XtDOQ" alt="img" width="180" height="320">
   <img src="https://lh3.googleusercontent.com/TEUb4BjhkvNTJHF0nGDfG1ZmoZbdWvysdYSn07n1PhywYXrSdPhd2bcL-0pxNcehm_Ob7jn2KWNpHxLj6G9kqQ" alt="img" width="180" height="320">
