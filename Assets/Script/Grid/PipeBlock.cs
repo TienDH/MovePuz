@@ -19,7 +19,7 @@ public class PipeBlock : MonoBehaviour
     [SerializeField] private MatrixGame matrixGame;
 
     [Header("Elevator Settings")]
-    [SerializeField] private float waitTimeBeforeLowering = 0.5f;
+//
 
     private static readonly WaitForSeconds waitCache = new WaitForSeconds(0.5f);
     private bool isElevating;

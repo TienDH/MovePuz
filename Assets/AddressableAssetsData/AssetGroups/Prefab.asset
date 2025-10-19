@@ -20,6 +20,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0483321296d64d343bf2b083710097e8
+    m_Address: Assets/Material/NewUnlitUniversalRenderPipelineShader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 095c5f1d531773f4daa936ec5b3cc08a
     m_Address: Assets/Prefab/7_t.prefab
     m_ReadOnly: 0

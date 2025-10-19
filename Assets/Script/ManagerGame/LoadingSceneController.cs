@@ -1,43 +1,79 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using TMPro;
+using System.Collections;
 
 public class LoadingSceneController : MonoBehaviour
 {
     [SerializeField] private Image progressBar;
-    private static string sceneToLoad;
+    [SerializeField] private FadePanel fadePanel;
+
+    static string _targetScene;
+    static bool _isBusy;
+
+    [Header("Tuning")]
+    [SerializeField] float minShowSeconds = 1.0f;   // thời gian hiển thị tối thiểu
+    [SerializeField] float smoothTime = 0.25f;  // độ mượt thanh bar
+    [SerializeField] float fadeOutTime = 0.25f;  // thời gian kéo bar 0.95→1 khi mở màn
 
     public static void LoadScene(string sceneName)
     {
-        sceneToLoad = sceneName;
-        SceneManager.LoadScene("LoadingScene");
+        if (_isBusy) return;
+        _isBusy = true;
+        _targetScene = sceneName;
+        SceneManager.LoadScene("LoadingScene", LoadSceneMode.Single);
     }
 
-    private void Start()
+    private void OnDisable() { _isBusy = false; }
+
+    private IEnumerator Start()
     {
-        StartCoroutine(LoadAsync());
-    }
+        Time.timeScale = 1f;
+        if (string.IsNullOrEmpty(_targetScene)) yield break;
 
-    private System.Collections.IEnumerator LoadAsync()
-    {
-        yield return new WaitForSeconds(0.3f); // Cho UI hiện lên mượt
+        // Che ngay nếu có
+        if (fadePanel) fadePanel.SetInstant(1f, true);
+        yield return null;
 
-        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneToLoad);
-        operation.allowSceneActivation = false;
+        var op = SceneManager.LoadSceneAsync(_targetScene, LoadSceneMode.Single);
+        op.allowSceneActivation = false;
 
-        while (!operation.isDone)
+        float displayed = 0f;        // giá trị hiển thị
+        float vel = 0f;               // tốc độ cho SmoothDamp
+        float t = 0f;
+
+        // cập nhật cho đến khi đã nạp xong (op.progress≈0.9) và đủ thời gian tối thiểu
+        while (true)
         {
-            float progress = Mathf.Clamp01(operation.progress / 0.9f);
-            progressBar.fillAmount = progress;
+            t += Time.unscaledDeltaTime;
 
-            if (progress >= 1f)
-            {
-                yield return new WaitForSeconds(1.5f);
-                operation.allowSceneActivation = true;
-            }
+            // mục tiêu hiển thị: khóa ở 0.95 để dành 0.05 cho giai đoạn mở màn
+            float target = Mathf.Clamp01((op.progress / 0.9f) * 0.95f);
 
+            displayed = Mathf.SmoothDamp(displayed, target, ref vel, smoothTime, Mathf.Infinity, Time.unscaledDeltaTime);
+            if (progressBar) progressBar.fillAmount = displayed;
+
+            bool loaded = op.progress >= 0.9f;
+            bool timeOk = t >= minShowSeconds;
+
+            if (loaded && timeOk) break; // đã sẵn sàng activate + đủ thời gian hiển thị
             yield return null;
         }
+
+        // Kéo bar 0.95 → 1.0 trong lúc fade-out
+        bool fadeDone = false;
+        if (fadePanel) fadePanel.FadeOut(() => fadeDone = true, fadeOutTime);
+
+        float endTimer = 0f;
+        while (displayed < 1f || !fadeDone)
+        {
+            endTimer += Time.unscaledDeltaTime;
+            displayed = Mathf.MoveTowards(displayed, 1f, Time.unscaledDeltaTime / fadeOutTime);
+            if (progressBar) progressBar.fillAmount = displayed;
+            yield return null;
+        }
+
+        op.allowSceneActivation = true;
+        while (!op.isDone) yield return null;
     }
 }

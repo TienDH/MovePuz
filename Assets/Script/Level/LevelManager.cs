@@ -7,7 +7,6 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private List<LevelConfig> levelConfigs;
     [SerializeField] private MatrixGame matrixGame;
     [SerializeField] private TextMeshProUGUI levelText;
-    [SerializeField] private AdsManager adsManager;
     private int currentLevelIndex = 0;
     private int totalLevelsCompleted = 0;
 
@@ -64,11 +63,6 @@ public class LevelManager : MonoBehaviour
 
         Debug.Log("Tổng số màn đã hoàn thành: " + totalLevelsCompleted);
 
-        if (totalLevelsCompleted % 4 == 0 && adsManager != null)
-        {
-            adsManager.ShowInterstitialAd();
-        }
-
     }
 
     public void LoadLevel(int index)
@@ -116,6 +110,14 @@ public class LevelManager : MonoBehaviour
         }
         LoadLevel(currentLevelIndex);
         Debug.Log($"Đã reset level {currentLevelIndex + 1}: {levelConfigs[currentLevelIndex].name}");
+    }
+    public void OnClick_NextFromWin()
+    {
+        AdsManager instance = FindObjectOfType<AdsManager>(); // hoặc AdsManager.Instance nếu bạn có property Instance
+        instance?.OnLevelCompleted_SafeTryShow();
+
+        // 2) Sang màn tiếp theo
+        LoadNextLevel();
     }
 
     public int GetCurrentLevelIndex()

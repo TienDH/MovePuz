@@ -3,40 +3,76 @@
   "WorkspaceRootPath": "D:\\unitysave\\xephinh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|d:\\unitysave\\xephinh\\assets\\script\\admob\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\admob\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\admob\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|d:\\unitysave\\xephinh\\assets\\script\\admob\\iapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\admob\\iapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\admob\\noadsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\admob\\noadsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\ui\\noadsbuttonbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\noadsbuttonbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\level\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\level\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\ui\\buttonvolum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\buttonvolum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\managergame\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\managergame\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unitysave\\xephinh\\Assets\\Plugins\\Android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Plugins\\Android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\grid\\matrixgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\grid\\matrixgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\managergame\\loadingscenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\managergame\\loadingscenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unitysave\\xephinh\\Assets\\Script\\turtorial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\turtorial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\level\\levelselectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\level\\levelselectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\ui\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\ui\\fadepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\fadepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelSelectUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Level\\LevelSelectUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\grid\\pipeblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\grid\\pipeblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unitysave\\xephinh\\Assets\\Plugins\\Android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Plugins\\Android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unitysave\\xephinh\\Assets\\Script\\Level\\Level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Level\\Level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unitysave\\xephinh\\Assets\\Script\\turtorial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\turtorial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unitysave\\xephinh\\Assets\\Script\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|D:\\unitysave\\xephinh\\assets\\script\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80BC3BD6-14E9-3166-855A-9981A13A3EDA}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\New\\1.3\\StreamingAssets\\aa\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -140,8 +172,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\ModeManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelSelectUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Level\\LevelSelectUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unitysave\\xephinh\\Assets\\Script\\UI\\SceneEntryFader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\UI\\SceneEntryFader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -150,32 +182,70 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 1019,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoadingSceneController.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\ManagerGame\\LoadingSceneController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\ManagerGame\\LoadingSceneController.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\ManagerGame\\LoadingSceneController.cs",
-              "RelativeToolTip": "Assets\\Script\\ManagerGame\\LoadingSceneController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ButtonVolum.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\ButtonVolum.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\ButtonVolum.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\ButtonVolum.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\ButtonVolum.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T08:27:59.832Z"
+              "WhenOpened": "2025-10-02T09:48:06.974Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "NoAdsService.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\AdMob\\NoAdsService.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AdMob\\NoAdsService.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\AdMob\\NoAdsService.cs",
+              "RelativeToolTip": "Assets\\Script\\AdMob\\NoAdsService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:06:33.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAPManager.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\AdMob\\IAPManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AdMob\\IAPManager.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\AdMob\\IAPManager.cs",
+              "RelativeToolTip": "Assets\\Script\\AdMob\\IAPManager.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:06:16.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\ManagerGame\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ManagerGame\\GameManager.cs",
               "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\ManagerGame\\GameManager.cs",
               "RelativeToolTip": "Assets\\Script\\ManagerGame\\GameManager.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAowLgAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T09:04:37.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Level\\LevelManager.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Level\\LevelManager.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAA3wHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T08:11:23.246Z"
             },
             {
               "$type": "Document",
@@ -185,297 +255,125 @@
               "RelativeDocumentMoniker": "Assets\\Script\\AdMob\\AdsManager.cs",
               "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\AdMob\\AdsManager.cs",
               "RelativeToolTip": "Assets\\Script\\AdMob\\AdsManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T08:07:52.6Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PipeBlock.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Grid\\PipeBlock.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Grid\\PipeBlock.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Grid\\PipeBlock.cs",
-              "RelativeToolTip": "Assets\\Script\\Grid\\PipeBlock.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T08:14:27.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "LevelSelectUI.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelSelectUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Level\\LevelSelectUI.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelSelectUI.cs",
-              "RelativeToolTip": "Assets\\Script\\Level\\LevelSelectUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T08:13:26.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Level\\LevelManager.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\Script\\Level\\LevelManager.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAlwEkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T08:11:23.246Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Plugins\\Android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\Android\\AndroidManifest.xml",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Plugins\\Android\\AndroidManifest.xml",
-              "RelativeToolTip": "Assets\\Plugins\\Android\\AndroidManifest.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-07-24T09:25:25.492Z"
+              "Title": "NoAdsButtonBinder.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\NoAdsButtonBinder.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\NoAdsButtonBinder.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\NoAdsButtonBinder.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\NoAdsButtonBinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:28:23.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 43,
+              "Title": "SceneEntryFader.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\SceneEntryFader.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\SceneEntryFader.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\SceneEntryFader.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\SceneEntryFader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:03:10.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MatrixGame.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Grid\\MatrixGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Grid\\MatrixGame.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Grid\\MatrixGame.cs",
+              "RelativeToolTip": "Assets\\Script\\Grid\\MatrixGame.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T08:24:41.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoadingSceneController.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\ManagerGame\\LoadingSceneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ManagerGame\\LoadingSceneController.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\ManagerGame\\LoadingSceneController.cs",
+              "RelativeToolTip": "Assets\\Script\\ManagerGame\\LoadingSceneController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIBJwBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:27:59.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FadePanel.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\FadePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\FadePanel.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\FadePanel.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\FadePanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T08:23:44.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SceneChanger.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\SceneChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\SceneChanger.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\UI\\SceneChanger.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\SceneChanger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T14:53:11.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "LevelSelectManager.cs",
               "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelSelectManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Level\\LevelSelectManager.cs",
               "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelSelectManager.cs",
               "RelativeToolTip": "Assets\\Script\\Level\\LevelSelectManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T08:11:33.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Level.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\Level.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Level\\Level.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\Level.cs",
-              "RelativeToolTip": "Assets\\Script\\Level\\Level.cs",
+              "DocumentIndex": 12,
+              "Title": "LevelSelectUI.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelSelectUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Level\\LevelSelectUI.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\LevelSelectUI.cs",
+              "RelativeToolTip": "Assets\\Script\\Level\\LevelSelectUI.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T08:10:56.759Z"
+              "WhenOpened": "2025-07-15T08:13:26.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "turtorial2.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\turtorial2.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\turtorial2.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\turtorial2.cs",
-              "RelativeToolTip": "Assets\\Script\\turtorial2.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T08:23:16.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "star.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\script\\star.cs",
-              "RelativeDocumentMoniker": "Assets\\script\\star.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\script\\star.cs",
-              "RelativeToolTip": "Assets\\script\\star.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAUwHMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T10:59:20.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MatrixGame.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\MatrixGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\MatrixGame.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\MatrixGame.cs",
-              "RelativeToolTip": "Assets\\Script\\MatrixGame.cs",
-              "ViewState": "AgIAAFYCAAAAAAAAAAAnwA0DAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T12:37:07.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MoveBackAndForth.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\MoveBackAndForth.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\MoveBackAndForth.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\MoveBackAndForth.cs",
-              "RelativeToolTip": "Assets\\Script\\MoveBackAndForth.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T14:10:59.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAcwFcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T09:50:10.673Z"
+              "DocumentIndex": 15,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Plugins\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\Android\\AndroidManifest.xml",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Plugins\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Assets\\Plugins\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-07-24T09:25:25.492Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "PipeBlock.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\PipeBlock.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\PipeBlock.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\PipeBlock.cs",
-              "RelativeToolTip": "Assets\\Script\\PipeBlock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:27:08.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Player.cs",
-              "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T06:41:04.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "TurtorialManager.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\TurtorialManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\TurtorialManager.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\TurtorialManager.cs",
-              "RelativeToolTip": "Assets\\Script\\TurtorialManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T07:49:02.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\LevelManager.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\Script\\LevelManager.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwFgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T08:04:34.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "a.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\a.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\a.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\a.cs",
-              "RelativeToolTip": "Assets\\Script\\a.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T07:26:58.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SceneChanger.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\SceneChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SceneChanger.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\SceneChanger.cs",
-              "RelativeToolTip": "Assets\\Script\\SceneChanger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T07:26:01.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "turtorial3.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\turtorial3.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\turtorial3.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\turtorial3.cs",
-              "RelativeToolTip": "Assets\\Script\\turtorial3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T08:36:27.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "settings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New\\1.3\\StreamingAssets\\aa\\settings.json",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\New\\1.3\\StreamingAssets\\aa\\settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-10T09:45:34.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\AudioManager.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Script\\AudioManager.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T09:00:37.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LevelConfig.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelConfig.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\LevelConfig.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelConfig.cs",
-              "RelativeToolTip": "Assets\\Script\\LevelConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T15:39:34.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "LevelSelectUI.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelSelectUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\LevelSelectUI.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelSelectUI.cs",
-              "RelativeToolTip": "Assets\\Script\\LevelSelectUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T16:05:43.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "FadePanel.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\FadePanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\FadePanel.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\FadePanel.cs",
-              "RelativeToolTip": "Assets\\Script\\FadePanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T18:28:09.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\UIManager.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Script\\UIManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T09:08:48.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "VolumeEditor.cs",
               "DocumentMoniker": "D:\\unitysave\\xephinh\\Library\\PackageCache\\com.unity.render-pipelines.core\\Editor\\Volume\\VolumeEditor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core\\Editor\\Volume\\VolumeEditor.cs",
@@ -487,54 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "gameControls.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\gameControls.cs",
-              "RelativeDocumentMoniker": "Assets\\gameControls.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\gameControls.cs",
-              "RelativeToolTip": "Assets\\gameControls.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T10:42:52.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Block.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Block.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Block.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Block.cs",
-              "RelativeToolTip": "Assets\\Script\\Block.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T12:36:35.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "LoadingSceneController.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\LoadingSceneController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\LoadingSceneController.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\LoadingSceneController.cs",
-              "RelativeToolTip": "Assets\\Script\\LoadingSceneController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T15:34:40.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ModeManager.cs",
-              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\ModeManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\ModeManager.cs",
-              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\ModeManager.cs",
-              "RelativeToolTip": "Assets\\Script\\ModeManager.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:26:35.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "Spawn.cs",
               "DocumentMoniker": "D:\\unitysave\\gamephathanh\\Assets\\script\\Spawn.cs",
               "RelativeDocumentMoniker": "..\\gamephathanh\\Assets\\script\\Spawn.cs",
@@ -546,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "D:\\unitysave\\gamephathanh\\Assets\\script\\AudioManager.cs",
               "RelativeDocumentMoniker": "..\\gamephathanh\\Assets\\script\\AudioManager.cs",
@@ -558,7 +409,253 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Level.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\Level.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Level\\Level.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Level\\Level.cs",
+              "RelativeToolTip": "Assets\\Script\\Level\\Level.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T08:10:56.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "turtorial2.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\turtorial2.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\turtorial2.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\turtorial2.cs",
+              "RelativeToolTip": "Assets\\Script\\turtorial2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T08:23:16.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MatrixGame.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\MatrixGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MatrixGame.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\MatrixGame.cs",
+              "RelativeToolTip": "Assets\\Script\\MatrixGame.cs",
+              "ViewState": "AgIAAFYCAAAAAAAAAAAnwA0DAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:37:07.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MoveBackAndForth.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\MoveBackAndForth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MoveBackAndForth.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\MoveBackAndForth.cs",
+              "RelativeToolTip": "Assets\\Script\\MoveBackAndForth.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:10:59.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwFcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T09:50:10.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PipeBlock.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\PipeBlock.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PipeBlock.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\PipeBlock.cs",
+              "RelativeToolTip": "Assets\\Script\\PipeBlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:27:08.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TurtorialManager.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\TurtorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TurtorialManager.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\TurtorialManager.cs",
+              "RelativeToolTip": "Assets\\Script\\TurtorialManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T07:49:02.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LevelManager.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Script\\LevelManager.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwFgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T08:04:34.172Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "a.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\a.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\a.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\a.cs",
+              "RelativeToolTip": "Assets\\Script\\a.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T07:26:58.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SceneChanger.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\SceneChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SceneChanger.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\SceneChanger.cs",
+              "RelativeToolTip": "Assets\\Script\\SceneChanger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T07:26:01.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "turtorial3.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\turtorial3.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\turtorial3.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\turtorial3.cs",
+              "RelativeToolTip": "Assets\\Script\\turtorial3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T08:36:27.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "settings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New\\1.3\\StreamingAssets\\aa\\settings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New\\1.3\\StreamingAssets\\aa\\settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T09:45:34.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AudioManager.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Script\\AudioManager.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T09:00:37.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LevelConfig.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LevelConfig.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelConfig.cs",
+              "RelativeToolTip": "Assets\\Script\\LevelConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T15:39:34.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LevelSelectUI.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelSelectUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LevelSelectUI.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\LevelSelectUI.cs",
+              "RelativeToolTip": "Assets\\Script\\LevelSelectUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T16:05:43.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FadePanel.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\FadePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\FadePanel.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\FadePanel.cs",
+              "RelativeToolTip": "Assets\\Script\\FadePanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T18:28:09.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UIManager.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Script\\UIManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T09:08:48.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "gameControls.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\gameControls.cs",
+              "RelativeDocumentMoniker": "Assets\\gameControls.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\gameControls.cs",
+              "RelativeToolTip": "Assets\\gameControls.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:42:52.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Block.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Block.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Block.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Block.cs",
+              "RelativeToolTip": "Assets\\Script\\Block.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:36:35.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LoadingSceneController.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\LoadingSceneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LoadingSceneController.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\LoadingSceneController.cs",
+              "RelativeToolTip": "Assets\\Script\\LoadingSceneController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:34:40.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ModeManager.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\ModeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ModeManager.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\ModeManager.cs",
+              "RelativeToolTip": "Assets\\Script\\ModeManager.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:26:35.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "TileManager.cs",
               "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\TileManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\TileManager.cs",
@@ -570,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "Tile.cs",
               "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Tile.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tile.cs",
@@ -579,6 +676,68 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T11:35:59.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PipeBlock.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Grid\\PipeBlock.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Grid\\PipeBlock.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Grid\\PipeBlock.cs",
+              "RelativeToolTip": "Assets\\Script\\Grid\\PipeBlock.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T08:14:27.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "star.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\star.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\star.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\star.cs",
+              "RelativeToolTip": "Assets\\Script\\star.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:59:20.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\unitysave\\xephinh\\Assets\\Script\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
+              "ToolTip": "D:\\unitysave\\xephinh\\Assets\\Script\\Player.cs",
+              "RelativeToolTip": "Assets\\Script\\Player.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T06:41:04.584Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 163,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3822e751-eb69-4b0e-b301-595a9e4c74d5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

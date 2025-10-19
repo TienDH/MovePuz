@@ -1,32 +1,35 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelSelectManager : MonoBehaviour
 {
     [SerializeField] private Button[] levelButtons;
+    [SerializeField] private string gameplaySceneName = "Classic";
+    bool _loading;
 
-    private void Start()
+    void Start()
     {
-        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1); // Mặc định chỉ mở Level 1
-
+        int unlocked = PlayerPrefs.GetInt("UnlockedLevel", 1);
         for (int i = 0; i < levelButtons.Length; i++)
         {
-            int levelIndex = i; // Local copy để tránh lỗi delegate
-            bool isUnlocked = (i + 1) <= unlockedLevel;
-            levelButtons[i].interactable = isUnlocked;
-
-            if (isUnlocked)
-            {
-                levelButtons[i].onClick.AddListener(() => LoadLevel(levelIndex));
-            }
+            int li = i;
+            var btn = levelButtons[i];
+            bool isUnlocked = (i + 1) <= unlocked;
+            btn.interactable = isUnlocked;
+            btn.onClick.RemoveAllListeners();
+            if (isUnlocked) btn.onClick.AddListener(() => OnLevel(li));
         }
     }
 
-    public void LoadLevel(int levelIndex)
+    void OnLevel(int levelIndex)
     {
+        if (_loading) return;
+        _loading = true;
+        foreach (var b in levelButtons) b.interactable = false;
+
         PlayerPrefs.SetInt("SelectedLevelIndex", levelIndex);
         PlayerPrefs.Save();
-        SceneManager.LoadScene("Classic"); // Thay bằng tên scene chính của bạn
+
+        LoadingSceneController.LoadScene(gameplaySceneName);
     }
 }

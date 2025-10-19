@@ -1,5 +1,6 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
+using System.Collections;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject panelWin;
@@ -14,6 +15,11 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject backgroundButton;
     [SerializeField] private int currentLevel;
+    [SerializeField] private Animator transitionAnim;
+    [SerializeField] private float transitionTime = 1f;   // bằng chiều dài clip fade-out
+    [SerializeField] private string startTrigger = "Start";
+    [SerializeField] private string endTrigger = "End";
+    [SerializeField] private FadePanel fadePanel; // Thêm tham chiếu FadePanel
     private bool isWin = false;
     private bool isPaused = false;
     private bool isslider = false;
@@ -23,16 +29,11 @@ public class GameManager : MonoBehaviour
     {
         levelManager = Object.FindAnyObjectByType<LevelManager>();
         currentLevel = levelManager.GetCurrentLevelIndex() + 1;
-    }
-
-    private void Start()
-    {
         panelWin.SetActive(false);
         panelPause.SetActive(false);    
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
     }
 
-    
 
     private void Update()
     {
@@ -49,7 +50,22 @@ public class GameManager : MonoBehaviour
             ShowTutorial(currentLevel + 1); // +1 nếu level của bạn hiển thị từ 1
         }
     }
+    public void returnScene(string sceneName)
+    {
+        isPaused = false; isslider = false;
+        if (panelPause) panelPause.SetActive(false);
+        if (backgroundButton) backgroundButton.SetActive(false);
+        if (panelWin) panelWin.SetActive(false);
+        Time.timeScale = 1f;
+        StartCoroutine(FadeAndLoad(sceneName));
+    }
+    private IEnumerator FadeAndLoad(string sceneName)
+    {
 
+        transitionAnim.SetTrigger(startTrigger);           // fade out
+        yield return new WaitForSecondsRealtime(transitionTime);
+        SceneManager.LoadScene(sceneName);
+    }
     private void TurnOffTurtorial()
     {
         Turtorial1.SetActive(false);
@@ -124,7 +140,7 @@ public class GameManager : MonoBehaviour
             Debug.Log($"Unlocked level {nextLevelIndex + 1}");
         }
 
-        levelManager.LoadNextLevel();
+        levelManager.OnClick_NextFromWin();
         currentLevel = levelManager.GetCurrentLevelIndex() + 1;
         Debug.Log($"Moved to level {currentLevel}");
     }

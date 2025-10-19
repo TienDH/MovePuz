@@ -32,6 +32,7 @@ public class Star : MonoBehaviour
             if (gameManager != null)
             {
                 gameManager.WinGame();
+                gameObject.SetActive(false);
             }
             else
             {

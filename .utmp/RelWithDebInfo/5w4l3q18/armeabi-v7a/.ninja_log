@@ -1,0 +1,23 @@
+# ninja log v5
+12	1830	7824949645033638	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	a4bf748dda10b5da
+52	449	7824949631006285	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	eb19c3bfbb5a6f5
+24	1402	7824949640704378	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f4621b63265e7e38
+451	666	7824949633288672	D:/unitysave/xephinh/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5w4l3q18/obj/armeabi-v7a/libswappywrapper.so	50db3c7f453b4b37
+31	1463	7824949641320758	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e8d488ec90ac1639
+45	1638	7824949643128467	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	f3b9022a02d61ff6
+6	1490	7824949641609456	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	7785753917bdb052
+38	1528	7824949641965503	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	897c5e9b5968c50e
+1	1522	7824949641930385	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	965c5762722db8de
+18	1739	7824949644113318	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	6eed4240745d9bd6
+1830	1906	7824949645822551	D:/unitysave/xephinh/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5w4l3q18/obj/armeabi-v7a/libgame.so	8482abac875d49a8
+56	250	7825681293984712	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	eb19c3bfbb5a6f5
+250	481	7825681296246690	D:/unitysave/xephinh/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5w4l3q18/obj/armeabi-v7a/libswappywrapper.so	50db3c7f453b4b37
+11	1219	7825681303704863	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e8d488ec90ac1639
+17	1416	7825681304120525	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	7785753917bdb052
+30	1419	7825681304130560	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f4621b63265e7e38
+36	1505	7825681305321544	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	897c5e9b5968c50e
+23	1530	7825681305709295	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	965c5762722db8de
+49	1532	7825681306773597	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	f3b9022a02d61ff6
+42	1666	7825681308172556	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	6eed4240745d9bd6
+5	1736	7825681308878633	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	a4bf748dda10b5da
+1736	1833	7825681309887007	D:/unitysave/xephinh/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5w4l3q18/obj/armeabi-v7a/libgame.so	8482abac875d49a8

@@ -4,112 +4,294 @@ using System;
 
 public class AdsManager : MonoBehaviour
 {
-    private BannerView bannerView;
-    private InterstitialAd interstitialAd;
+    [Header("AdMob Test Ad Unit IDs (Android)")]
+    [SerializeField] private string interstitialAdUnitId = "ca-app-pub-2465944213278280/3472332029";
+    [SerializeField] private string bannerAdUnitId = "ca-app-pub-2465944213278280/3573432045";
 
-    [Header("AdMob Ad Unit IDs (Test IDs)")]
-    private string bannerAdUnitId = "ca-app-pub-3940256099942544/6300978111"; // Test Banner
-    private string interstitialAdUnitId = "ca-app-pub-3940256099942544/1033173712"; // Test Interstitial
+    [Header("Policy")]
+    [SerializeField] private int firstAdAfterLevels = 3;
+    [SerializeField] private int adFrequencyLevels = 4;
+    [SerializeField] private int minSecondsBetweenAds = 45;
+
+    [Header("Diagnostics")]
+    [SerializeField] private bool verboseLog = true;
+
+    private InterstitialAd _interstitial;
+    private BannerView _banner;
+
+    // Persisted counters
+    private const string PP_TOTAL_COMPLETED = "ads_total_completed";
+    private const string PP_LEVELS_SINCE = "ads_levels_since";
+    private const string PP_LAST_AD_UNIX = "ads_last_ad_unix";
+
+    private int _totalCompleted;
+    private int _levelsSinceLastAd;
+    private long _lastAdUnix;
+
+    private bool _eligibleButInterstitialNotReady;
+    private bool _adsDisabled; // khi No Ads
+
+    void Awake()
+    {
+        _totalCompleted = PlayerPrefs.GetInt(PP_TOTAL_COMPLETED, 0);
+        _levelsSinceLastAd = PlayerPrefs.GetInt(PP_LEVELS_SINCE, 0);
+        _lastAdUnix = long.Parse(PlayerPrefs.GetString(PP_LAST_AD_UNIX, "0"));
+    }
+
+    void OnEnable()
+    {
+        if (NoAdsService.Instance != null)
+            NoAdsService.Instance.OnNoAdsChanged += HandleNoAdsChanged;
+    }
+
+    void OnDisable()
+    {
+        if (NoAdsService.Instance != null)
+            NoAdsService.Instance.OnNoAdsChanged -= HandleNoAdsChanged;
+    }
 
     void Start()
     {
-        MobileAds.Initialize(initStatus =>
+        _adsDisabled = (NoAdsService.Instance && NoAdsService.Instance.IsNoAds);
+
+        if (_adsDisabled)
         {
-            Debug.Log("AdMob Initialized");
-            RequestBannerAd();
-            RequestInterstitialAd();
+            Log("[Ads] Disabled by NoAds.");
+            return;
+        }
+
+        MobileAds.Initialize(_ =>
+        {
+            Log("AdMob Initialized (Android)");
+            PreloadInterstitial();
+            // (Banner: bạn tự quyết định lúc nào gọi Request/Show)
         });
     }
 
-    #region Banner Ad
-    public void RequestBannerAd()
+    private void HandleNoAdsChanged(bool isNoAds)
     {
-        if (bannerView != null)
+        _adsDisabled = isNoAds;
+        if (isNoAds)
         {
-            bannerView.Destroy();
+            Log("NoAds purchased → destroying ads & stop loading.");
+            SafeDestroyBanner();
+            SafeDestroyInterstitial();
         }
-
-        bannerView = new BannerView(bannerAdUnitId, AdSize.Banner, AdPosition.Bottom);
-        AdRequest request = new AdRequest();
-        bannerView.LoadAd(request);
-        Debug.Log("Banner Ad Requested");
-    }
-
-    public void ShowBanner()
-    {
-        if (bannerView != null)
+        else
         {
-            bannerView.Show();
-            Debug.Log("Banner Shown");
+            // Trường hợp bạn cho phép “mở lại” (hiếm khi dùng)
+            MobileAds.Initialize(_ => { PreloadInterstitial(); });
         }
     }
 
-    public void HideBanner()
+    // ===== Public API =====
+    public void OnLevelCompleted_SafeTryShow()
     {
-        if (bannerView != null)
+        if (_adsDisabled) { Log("NO ADS active → skip ads."); return; }
+
+        _totalCompleted++;
+        _levelsSinceLastAd++;
+        SaveCounters();
+
+        Log($"[Complete] total={_totalCompleted}, sinceLast={_levelsSinceLastAd}, lastAdAgo={SecondsSinceLastAd()}s");
+
+        if (!IsPolicyEligibleNow())
         {
-            bannerView.Hide();
-            Debug.Log("Banner Hidden");
+            _eligibleButInterstitialNotReady = false;
+            Log("Not eligible by policy yet.");
+            return;
+        }
+
+        if (IsInterstitialReady())
+        {
+            ShowInterstitialInternal();
+            _eligibleButInterstitialNotReady = false;
+        }
+        else
+        {
+            _eligibleButInterstitialNotReady = true;
+            Log("Eligible but interstitial not ready → defer. Preloading...");
+            PreloadInterstitial();
         }
     }
-    #endregion
 
-    #region Interstitial Ad
-    public void RequestInterstitialAd()
+    public void TryShowIfDeferred()
     {
-        if (interstitialAd != null)
+        if (_adsDisabled) return;
+
+        if (_eligibleButInterstitialNotReady && IsPolicyEligibleNow() && IsInterstitialReady())
         {
-            interstitialAd.Destroy();
-            interstitialAd = null;
+            Log("Deferred eligible → now ready. Showing interstitial.");
+            ShowInterstitialInternal();
+            _eligibleButInterstitialNotReady = false;
+        }
+    }
+
+    public void DebugResetAdCounters()
+    {
+        _totalCompleted = 0;
+        _levelsSinceLastAd = 0;
+        _lastAdUnix = 0;
+        _eligibleButInterstitialNotReady = false;
+        SaveCounters();
+        Log("Counters reset.");
+    }
+
+    // ===== Policy =====
+    private bool IsPolicyEligibleNow()
+    {
+        if (_totalCompleted < Mathf.Max(0, firstAdAfterLevels)) return false;
+        if (_levelsSinceLastAd < Mathf.Max(1, adFrequencyLevels)) return false;
+        if (SecondsSinceLastAd() < Mathf.Max(0, minSecondsBetweenAds)) return false;
+        return true;
+    }
+
+    private long NowUnix() => DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+
+    private int SecondsSinceLastAd()
+    {
+        if (_lastAdUnix <= 0) return int.MaxValue;
+        long diff = NowUnix() - _lastAdUnix;
+        if (diff < 0) diff = 0;
+        return (int)diff;
+    }
+
+    private void MarkAdJustShown()
+    {
+        _levelsSinceLastAd = 0;
+        _lastAdUnix = NowUnix();
+        SaveCounters();
+    }
+
+    private void SaveCounters()
+    {
+        PlayerPrefs.SetInt(PP_TOTAL_COMPLETED, _totalCompleted);
+        PlayerPrefs.SetInt(PP_LEVELS_SINCE, _levelsSinceLastAd);
+        PlayerPrefs.SetString(PP_LAST_AD_UNIX, _lastAdUnix.ToString());
+        PlayerPrefs.Save();
+    }
+
+    // ===== Interstitial =====
+    private void PreloadInterstitial()
+    {
+        if (_adsDisabled) return;
+
+        if (string.IsNullOrEmpty(interstitialAdUnitId))
+        {
+            LogError("Interstitial Ad Unit ID is empty.");
+            return;
         }
 
-        AdRequest request = new AdRequest();
+        SafeDestroyInterstitial();
 
+        var request = new AdRequest();
         InterstitialAd.Load(interstitialAdUnitId, request, (ad, error) =>
         {
+            if (_adsDisabled) { ad?.Destroy(); return; } // vừa mua xong trong lúc load
             if (error != null || ad == null)
             {
-                Debug.LogError("Failed to load interstitial ad: " + error.GetMessage());
+                LogError("Interstitial load failed: " + (error == null ? "unknown" : error.GetMessage()));
                 return;
             }
 
-            interstitialAd = ad;
-            Debug.Log("Interstitial Ad Loaded");
+            _interstitial = ad;
+            Log("Interstitial loaded.");
 
-            interstitialAd.OnAdFullScreenContentClosed += () =>
+            _interstitial.OnAdFullScreenContentOpened += () => Log("Interstitial opened.");
+            _interstitial.OnAdFullScreenContentClosed += () =>
             {
-                Debug.Log("Interstitial Ad Closed");
-                RequestInterstitialAd(); // Tải lại sau khi xem
+                Log("Interstitial closed. Preloading next...");
+                PreloadInterstitial();
+            };
+            _interstitial.OnAdFullScreenContentFailed += adError =>
+            {
+                LogError("Interstitial failed to show: " + (adError == null ? "unknown" : adError.GetMessage()));
+                PreloadInterstitial();
             };
         });
     }
 
-    public bool IsInterstitialAdReady()
+    private bool IsInterstitialReady() => _interstitial != null && _interstitial.CanShowAd();
+
+    private void ShowInterstitialInternal()
     {
-        return interstitialAd != null && interstitialAd.CanShowAd();
+        if (_adsDisabled) return;
+        if (!IsInterstitialReady())
+        {
+            Log("Show called but interstitial not ready.");
+            return;
+        }
+
+        Log("Showing interstitial...");
+        MarkAdJustShown();
+
+        try
+        {
+            _interstitial.Show();
+        }
+        catch (Exception e)
+        {
+            LogError("Exception when showing interstitial: " + e.Message);
+            _levelsSinceLastAd = Mathf.Max(0, _levelsSinceLastAd - 1); // trả lại 1 lần
+            SaveCounters();
+            PreloadInterstitial();
+        }
     }
 
-    public void ShowInterstitialAd()
+    // ===== Banner (tùy chọn) =====
+    public void RequestBannerAd()
     {
-        if (IsInterstitialAdReady())
+        if (_adsDisabled) { Log("NO ADS active → skip banner."); return; }
+        if (string.IsNullOrEmpty(bannerAdUnitId))
         {
-            interstitialAd.Show();
-            Debug.Log("Interstitial Ad Shown");
+            LogError("Banner Ad Unit ID is empty.");
+            return;
         }
-        else
+        SafeDestroyBanner();
+
+        _banner = new BannerView(bannerAdUnitId, AdSize.Banner, AdPosition.Bottom);
+        _banner.LoadAd(new AdRequest());
+        Log("Banner requested.");
+    }
+
+    public void ShowBanner()
+    {
+        if (_adsDisabled) return;
+        _banner?.Show();
+        Log("Banner shown.");
+    }
+
+    public void HideBanner()
+    {
+        _banner?.Hide();
+        Log("Banner hidden.");
+    }
+
+    private void SafeDestroyBanner()
+    {
+        if (_banner != null)
         {
-            Debug.Log("Interstitial Ad not ready yet, requesting...");
-            RequestInterstitialAd();
+            try { _banner.Destroy(); } catch { }
+            _banner = null;
         }
     }
-    #endregion
+
+    private void SafeDestroyInterstitial()
+    {
+        if (_interstitial != null)
+        {
+            try { _interstitial.Destroy(); } catch { }
+            _interstitial = null;
+        }
+    }
 
     void OnDestroy()
     {
-        if (bannerView != null)
-            bannerView.Destroy();
-
-        if (interstitialAd != null)
-            interstitialAd.Destroy();
+        SafeDestroyBanner();
+        SafeDestroyInterstitial();
     }
+
+    // ===== Logs =====
+    private void Log(string msg) { if (verboseLog) Debug.Log("[Ads] " + msg); }
+    private void LogError(string msg) { Debug.LogError("[Ads] " + msg); }
 }

@@ -2,49 +2,37 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class SceneChanger : MonoBehaviour
+public class SceneController : MonoBehaviour
 {
-    public void Start()
-    {
-        Application.targetFrameRate = 60;
-        QualitySettings.vSyncCount = 0;
-    }
-    public float delayTime = 0.2f; // Thời gian delay trước khi chuyển scene
+    [SerializeField] private Animator transitionAnim;
+    [SerializeField] private float transitionTime = 1f;   // bằng chiều dài clip fade-out
+    [SerializeField] private string startTrigger = "Start";
+    [SerializeField] private string endTrigger = "End";
+    [SerializeField] private FadePanel fadePanel; // Thêm tham chiếu FadePanel
 
-    public void ChangeScene(string sceneName)
-    {
-        StartCoroutine(DelayChangeScene(sceneName));
-    }
+    // Khi vào scene mới, mở sáng (nếu Animator không auto)
 
-    
-
+    // Gọi hàm này để chuyển scene theo tên
     public void LoadLevel(string sceneName)
     {
-        StartCoroutine(DelayLoadLevel(sceneName));
+        StartCoroutine(FadeAndLoad(sceneName));
     }
 
-    public void ResetCurrentScene()
+    private IEnumerator FadeAndLoad(string sceneName)
     {
-        StartCoroutine(DelayResetCurrentScene());
-    }
-
-    private IEnumerator DelayChangeScene(string sceneName)
-    {
-        yield return new WaitForSecondsRealtime(delayTime); // Không bị ảnh hưởng bởi Time.timeScale
-        Time.timeScale = 1f;
+ 
+        transitionAnim.SetTrigger(startTrigger);           // fade out
+        yield return new WaitForSecondsRealtime(transitionTime);
         SceneManager.LoadScene(sceneName);
     }
 
-    private IEnumerator DelayLoadLevel(string sceneName)
+    public void ReturnLevel(string sceneName) 
     {
-        yield return new WaitForSecondsRealtime(delayTime);
-        LoadingSceneController.LoadScene(sceneName);
+        
+                SceneManager.LoadScene(sceneName);
+                // Callback sau khi FadeIn hoàn tất
+
     }
 
-    private IEnumerator DelayResetCurrentScene()
-    {
-        yield return new WaitForSecondsRealtime(delayTime);
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.buildIndex);
-    }
+    
 }
